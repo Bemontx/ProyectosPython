@@ -1,0 +1,15 @@
+print('====================')
+print('Convertidor dinero')
+print('====================')
+print()
+
+def convertirDinero():
+
+    dinero = ""
+    dolar = 4.015
+
+    valor = float(input(f'Ingrese la cantidad dinero/peso colombiano para convertir a dolar{dinero}: '))
+    multiplicacion = int(valor / dolar)
+    print(multiplicacion)
+
+convertirDinero()
